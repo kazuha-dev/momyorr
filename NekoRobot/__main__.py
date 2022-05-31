@@ -82,21 +82,21 @@ def get_readable_time(seconds: int) -> str:
 buttons = [
     [
                         InlineKeyboardButton(
-                            text=f"Add NekoX To Your Group",
-                            url=f"t.me/NekoXRobot?startgroup=true")
+                            text=f"Add Yor To Your Group",
+                            url=f"t.me/YorForger_Xbot?startgroup=true")
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="❔Chit Chat", url="https://t.me/Besties_XD"),
-                       InlineKeyboardButton(text="[► Repo ◄]", url="https://GitHub.com/Awesome-Prince/NekoRobot-3"),
+                       InlineKeyboardButton(text="❔Chit Chat", url="https://t.me/anime_chat_universe_club"),
+                       InlineKeyboardButton(text="[► Repo ◄]", url="https://GitHub.com/MrSumit006/NekoRobot-3"),
                      ],
                     [                  
                        InlineKeyboardButton(
                              text="🚑 Support",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/anime_chat_universe_club"),
                        InlineKeyboardButton(
                              text="📢 Updates",
-                             url="https://t.me/Koyuki_Updates")
+                             url="https://t.me/Kaizen_Network")
                      ], 
     ]
 
@@ -273,10 +273,10 @@ def start(update: Update, context: CallbackContext):
                   [                  
                        InlineKeyboardButton(
                              text="Support🚑",
-                             url=f"https://t.me/Koyuki_Support"),
+                             url=f"https://t.me/anime_chat_universe_club"),
                        InlineKeyboardButton(
                              text="Updates🛰️",
-                             url="https://t.me/Koyuki_Updates")
+                             url="https://t.me/Kaizen_Network")
                      ] 
                 ]
             ),
@@ -383,10 +383,10 @@ def neko_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Master", url="t.me/Awesome-Prince"
+                            text="Master", url="t.me/MrSumit004"
                         ),
                         InlineKeyboardButton(
-                            text="Support", url="t.me/Koyuki_Support"
+                            text="Support", url="t.me/Kaizen_Network"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="neko_back")],
@@ -462,7 +462,7 @@ def get_help(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="Click Here", url="https://t.me/NekoXRobot?start=help")
+                  InlineKeyboardButton(text="Click Here", url="https://t.me/anime_chat_universe_club?start=help")
                   ]
                 ]
             ),
@@ -682,7 +682,7 @@ def main():
 
                              text="[► Summon Me ◄]",
 
-                             url=f"t.me/NekoXRobot?startgroup=true"),
+                             url=f"t.me/YorForger_Xbot?startgroup=true"),
 
 
                      ] 
